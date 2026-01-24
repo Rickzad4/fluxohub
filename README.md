@@ -1,3 +1,35 @@
+--------------------------------------------------
+-- SISTEMA DE KEY POR NOME (WHITELIST)
+--------------------------------------------------
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+-- 🔒 LISTA DE NOMES PERMITIDOS
+local WHITELIST = {
+    "Baron_e08",   -- coloque seu nome exatamente como no Roblox
+    "lorenzoUnicornio23", -- você pode adicionar mais nomes
+}
+
+local autorizado = false
+
+for _, nome in ipairs(WHITELIST) do
+    if player.Name == nome then
+        autorizado = true
+        break
+    end
+end
+
+if not autorizado then
+    warn("❌ Acesso negado para: " .. player.Name)
+    task.wait(1)
+    player:Kick("❌ Você não está autorizado a usar este script.")
+    return -- impede o resto do script de rodar
+end
+
+print("✅ Acesso autorizado para:", player.Name)
+
+--------------------------------------------------
 --// INTRO - LOGO ONLY + SOUND GRADIENT
 local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
