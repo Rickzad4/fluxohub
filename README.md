@@ -9,6 +9,7 @@ local player = Players.LocalPlayer
 local WHITELIST = {
     "Baron_e08",   -- coloque seu nome exatamente como no Roblox
     "Noob_Aurora2025", -- você pode adicionar mais nomes
+    "Eusoutili",
 }
 
 local autorizado = false
