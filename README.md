@@ -13,7 +13,7 @@ local WHITELIST = {
     "Fino123o45", -- você pode adicionar mais nomes
     "Gabrielrenann2", -- você pode adicionar mais nomes
     "eusoutili", -- você pode adicionar mais nomes
-    "arthur_damas125", -- você pode adicionar mais nomes
+    "arthur_damas127", -- você pode adicionar mais nomes
 }
 
 local autorizado = false
