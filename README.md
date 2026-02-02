@@ -8,15 +8,6 @@ local player = Players.LocalPlayer
 -- 🔒 LISTA DE NOMES PERMITIDOS
 local WHITELIST = {
     "Baron_e08",   -- coloque seu nome exatamente como no Roblox
-    "Noob_Aurora2025", -- você pode adicionar mais nomes
-    "Viperman1608", -- você pode adicionar mais nomes
-    "Fino123o45", -- você pode adicionar mais nomes
-    "Gabrielrenann2", -- você pode adicionar mais nomes
-    "eusoutili", -- você pode adicionar mais nomes
-    "arthur_damas127", -- você pode adicionar mais nomes
-    "Gomezlinda182", -- você pode adicionar mais nomes
-    "hyago2763", -- você pode adicionar mais nomes
-    "eubandinho", -- você pode adicionar mais nomes
 }
 
 local autorizado = false
